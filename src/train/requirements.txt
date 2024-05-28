@@ -1,0 +1,5 @@
+torch==2.2.0
+torchvision==0.17.0
+boto3==1.33.3
+datasets==2.19.1
+Pillow==10.2.0
