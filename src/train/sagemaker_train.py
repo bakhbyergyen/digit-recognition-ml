@@ -32,7 +32,7 @@ estimator = PyTorch(
     max_run=3600,
     hyperparameters={
         'batch_size': 32,
-        'epochs': 10,
+        'epochs': 16,
         'lr': 0.01,
         'version': VERSION,
         'bucket_name': BUCKET_NAME,
