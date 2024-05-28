@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](img/architecture-diagram.png)
 
 ## Branching Strategy
 
