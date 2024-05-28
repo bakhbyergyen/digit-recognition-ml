@@ -8,8 +8,6 @@ on:
 jobs:
   train:
     runs-on: ubuntu-latest
-    if: false # Temporarily disable the workflow
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
