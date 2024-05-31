@@ -66,8 +66,6 @@ model = AmptalkModel()
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
 
-n_epochs = 3
-
 
 if __name__ == '__main__':
     
@@ -75,7 +73,7 @@ if __name__ == '__main__':
     print(f"Training version {args.version}")
     # Training loop
     model.train()
-    for epoch in range(n_epochs):
+    for epoch in range(args.epochs):
         running_loss = 0.0
         for i, (inputs, labels) in enumerate(train_loader):
             optimizer.zero_grad()
